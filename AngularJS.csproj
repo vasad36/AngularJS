@@ -71,11 +71,15 @@
     <Content Include="Controllers\stringcombine.js" />
     <Content Include="Global.asax" />
     <Content Include="Controllers\app.js" />
-    <Content Include="My-Example\directive.html" />
+    <Content Include="get.html" />
+    <Content Include="My-Example\http\http_json.html" />
+    <Content Include="My-Example\http\http_properties.html" />
+    <Content Include="My-Example\http\jsondata.txt" />
     <Content Include="My-Example\filterbyarry.html" />
     <Content Include="My-Example\filterbyfilter.html" />
     <Content Include="My-Example\Fullname.html" />
     <Content Include="My-Example\fun_scope.html" />
+    <Content Include="My-Example\http\jsonarry.html" />
     <Content Include="My-Example\Index.html" />
     <Content Include="Js\angular.min.js" />
     <Content Include="My-Example\newsyntaz.html" />

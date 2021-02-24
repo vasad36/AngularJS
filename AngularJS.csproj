@@ -72,6 +72,16 @@
     <Content Include="Global.asax" />
     <Content Include="Controllers\app.js" />
     <Content Include="get.html" />
+    <Content Include="My-Example\Events\ng-click.html" />
+    <Content Include="My-Example\Events\ng-mouse-move.html" />
+    <Content Include="My-Example\Events\showme.html" />
+    <Content Include="My-Example\Forms-Control\checkbox.html" />
+    <Content Include="My-Example\Forms-Control\radio.html" />
+    <Content Include="My-Example\Forms-Control\selectbox.html" />
+    <Content Include="My-Example\HTML-DOM\ng-disable.html" />
+    <Content Include="My-Example\HTML-DOM\ng-hide.html" />
+    <Content Include="My-Example\HTML-DOM\ng-show-condition.html" />
+    <Content Include="My-Example\HTML-DOM\ng-show.html" />
     <Content Include="My-Example\http\http_json.html" />
     <Content Include="My-Example\http\http_properties.html" />
     <Content Include="My-Example\http\jsondata.txt" />
@@ -86,15 +96,20 @@
     <Content Include="My-Example\orderbyasc-desc.html" />
     <Content Include="My-Example\owndirective.html" />
     <Content Include="My-Example\repete.html" />
+    <Content Include="My-Example\Select.html" />
     <Content Include="My-Example\Service_http.html" />
     <Content Include="My-Example\Service_Interval.html" />
     <Content Include="My-Example\service_Location.html" />
     <Content Include="My-Example\Service_own.html" />
     <Content Include="My-Example\Service_Timeout.html" />
+    <Content Include="My-Example\Table.html" />
     <Content Include="My-Example\TwoWayBinding.html" />
     <Content Include="views\Lacture4.html" />
     <Content Include="views\Lecture2.html" />
     <Content Include="views\Lecture3.html" />
+    <Content Include="views\Lecture5.html" />
+    <Content Include="views\Lecture6.html" />
+    <Content Include="views\Lecture7.html" />
     <Content Include="views\topic1.html" />
     <Content Include="Web.config" />
   </ItemGroup>

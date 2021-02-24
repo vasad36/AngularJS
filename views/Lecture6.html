@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="../Js/angular.min.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="TestApp">
+    <div ng-controller="cont_Add">
+
+        <input type="text" ng-model="val1" />
+        <input type="text" ng-model="val2" />
+        <input type="date" ng-model="val3" />
+        <input type="number" ng-model="val4" />
+
+        <p><span>{{returnval|uppercase}}</span></p>
+        <p><span>{{returnval|lowercase}}</span></p>
+        <p><span>{{priceval|currency}}</span></p>
+        <p><span>{{dateval|date}}</span></p>
+
+    </div>
+<script>
+    var app = angular.module('TestApp', []);
+
+    app.controller('cont_Add', function ($scope) {
+        $scope.val1 = "Angular JS";
+        $scope.val2 = "JS";
+        $scope.val3 = new Date();
+        $scope.val4 = 10;
+
+        $scope.returnval = $scope.val1;
+        $scope.dateval = $scope.val3;
+        $scope.priceval = $scope.val4;
+
+       
+    });
+
+</script>
+
+</body>
+</html>
